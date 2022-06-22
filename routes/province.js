@@ -1,6 +1,5 @@
 const Province = require("../models/Province");
 const { verifyTokenAndAuthorization } = require("./verifyToken");
-const data = require("../data.json");
 const router = require("express").Router();
 
 // CREATE
